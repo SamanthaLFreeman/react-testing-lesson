@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should match the snapshot if the card is favorited 1`] = `
+<section
+  className="favorite"
+>
+  <h3>
+    Blah
+  </h3>
+  <p>
+    Blah blah blah
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    🗑
+  </button>
+</section>
+`;
+
+exports[`Card should match the snapshot with all data passed in correctly 1`] = `
+<section
+  className="card"
+>
+  <h3>
+    Blah
+  </h3>
+  <p>
+    Blah blah blah
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    🗑
+  </button>
+</section>
+`;
